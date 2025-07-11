@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <p><strong>Hey there!</strong> 👋 I'm a passionate DevOps Engineer on a mission to automate everything and scale cloud infrastructures efficiently.</p>
+  <p><strong>Hey there!</strong> 👋 I'm a passionate Software Engineer on a mission to Build Uniq And Make Everything Easy With my Codes For Making Web & Application Effective and Efficient WorkFlow.</p>
 </div>
 
 <br>
