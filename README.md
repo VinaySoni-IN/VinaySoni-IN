@@ -25,7 +25,7 @@
 ### What I Do
 - 🌩️ **UI/UX Design**
   - create user-friendly and visually appealing interfaces for apps and websites.
-  - [![My Skills](https://skillicons.dev/icons?i=figma,flutter,ps,xd&perline=4)](https://skillicons.dev)
+  - [![My Skills](https://skillicons.dev/icons?i=figma,flutter,wordpress,ps,xd&perline=4)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
   - CI/CD pipelines
   - Infrastructure as Code (IaC)
