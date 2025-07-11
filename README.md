@@ -1,13 +1,17 @@
 # <div align="center">💻💭 **Vinay Sanjay Soni**</div>
 
 <div align="center">
+  <p><strong>Hey there!</strong> 👋 I'm a passionate Software Engineer on a mission to Build UniQ</p>
+</div>
+
+<div align="center">
 
 <img src="https://gcdnb.pbrd.co/images/UhlIUSUJlowS.png" alt="aboutme" width="800px">
 
 </div>
 
 <div align="center">
-  <p><strong>Hey there!</strong> 👋 I'm a passionate Software Engineer on a mission to Build Uniq And Make Everything Easy With my Codes For Making Web & Application Effective and Efficient WorkFlow.</p>
+  <p>Make Everything Easy With my Codes For Making Web & Application Effective and Efficient WorkFlow.</p>
 </div>
 
 <br>
