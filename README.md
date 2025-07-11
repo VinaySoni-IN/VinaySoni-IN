@@ -23,9 +23,9 @@
 <td width="50%">
 
 ### What I Do
-- 🌩️ **Cloud & DevOps Specialist**
-  - Architecting scalable infrastructures
-  - AWS, Azure, Kubernetes expert
+- 🌩️ **UI/UX Design**
+  - create user-friendly and visually appealing interfaces for apps and websites.
+  - [![My Skills](https://skillicons.dev/icons?i=figma,flutter,ps,xd&perline=4)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
   - CI/CD pipelines
   - Infrastructure as Code (IaC)
