@@ -17,10 +17,10 @@
 <br>
 
 ## 💫 About Me
-
+<div align="center">
 <table>
 <tr>
-<td width="100%">
+<td width="50%">
 
 ### What I Do
 - 🌩️ **Cloud & DevOps Specialist**
@@ -35,9 +35,26 @@
   - Open-source projects
 
 </td>
+
+<td width="50%">
+
+### What I Do
+- 🌩️ **Cloud & DevOps Specialist**
+  - Architecting scalable infrastructures
+  - AWS, Azure, Kubernetes expert
+- 🤖 **Automation Enthusiast**
+  - CI/CD pipelines
+  - Infrastructure as Code (IaC)
+- 📝 **Content Creator**
+  - Technical blogs
+  - DevOps tutorials
+  - Open-source projects
+
+</td>
+
 </tr>
 </table>
-
+</div>
 <div align="center">
   <img src="https://i.postimg.cc/jqBZ9NLw/image-2.png" alt="DevOps Banner" width="800px">
 </div>
