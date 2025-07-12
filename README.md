@@ -31,7 +31,7 @@
   - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)
 - 📝 **Application & Software That I Used**
   - App's Software That I Used As Developer 
-  - [![My Skills](https://skillicons.dev/icons?i=windows,vscode,idea,pen,notion,androidstudio,,&perline=5)](https://skillicons.dev)
+  - [![My Skills](https://skillicons.dev/icons?i=windows,vscode,idea,codepen,notion,androidstudio,apple,linkedin,github&perline=5)](https://skillicons.dev)
 
 </td>
 
