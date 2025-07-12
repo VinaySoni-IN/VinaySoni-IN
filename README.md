@@ -49,7 +49,3 @@ I'm a passionate software developer with a love for innovative technologies and 
 </tr>
 
 </table>
-</div>
-<div align="center">
-  <img src="https://i.postimg.cc/jqBZ9NLw/image-2.png" alt="DevOps Banner" width="800px">
-</div>
