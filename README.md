@@ -26,9 +26,9 @@
 - ✨ **UI/UX Design**
   - create user-friendly and visually appealing interfaces for apps and websites.
   - [![My Skills](https://skillicons.dev/icons?i=figma,flutter,wordpress,ps,xd&perline=5)](https://skillicons.dev)
-- 🤖 **Automation Enthusiast**
-  - CI/CD pipelines
-  - Infrastructure as Code (IaC)
+- ☁️ **Cloud Development Enthusiasm**
+  - there are cloud services that i work with
+  - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)
 - 📝 **Content Creator**
   - Technical blogs
   - DevOps tutorials
