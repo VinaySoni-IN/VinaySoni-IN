@@ -41,7 +41,7 @@
 ### What I Do
 - 🌩️ **Cloud & DevOps Specialist**
   - Architecting scalable infrastructures
-  - AWS, Azure, Kubernetes expert
+  - [![My Skills](https://skillicons.dev/icons?i=nodejs,python,ruby,php&perline=5)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
   - CI/CD pipelines
   - Infrastructure as Code (IaC)
