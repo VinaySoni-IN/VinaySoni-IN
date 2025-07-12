@@ -23,7 +23,7 @@
 <td width="50%">
 
 ### What I Do
-- 🌩️ **UI/UX Design**
+- ✨ **UI/UX Design**
   - create user-friendly and visually appealing interfaces for apps and websites.
   - [![My Skills](https://skillicons.dev/icons?i=figma,flutter,wordpress,ps,xd&perline=5)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
@@ -39,8 +39,8 @@
 <td width="50%">
 
 ### What I Do
-- 🌩️ **Cloud & DevOps Specialist**
-  - Architecting scalable infrastructures
+- ❤️ **Language That I love the Most**
+  - that are some of my fav Back-End language I comfort With
   - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
   - CI/CD pipelines
