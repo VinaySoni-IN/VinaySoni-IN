@@ -5,12 +5,6 @@
 </div>
 
 <div align="center">
-
-<img src="https://gcdnb.pbrd.co/images/UhlIUSUJlowS.png" alt="aboutme" width="800px">
-
-</div>
-
-<div align="center">
   <p>Welcome to My GitHub Profile!
 I'm a passionate software developer with a love for innovative technologies and a knack for problem-solving. With expertise in web and mobile application, website & Software development, I craft scalable, efficient, and user-friendly applications that delight users.</p>
 </div>
@@ -49,3 +43,9 @@ I'm a passionate software developer with a love for innovative technologies and 
 </tr>
 
 </table>
+
+<div align="center">
+
+<img src="https://gcdnb.pbrd.co/images/UhlIUSUJlowS.png" alt="aboutme" width="800px">
+
+</div>
