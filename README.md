@@ -41,7 +41,7 @@
 ### What I Do
 - 🌩️ **Cloud & DevOps Specialist**
   - Architecting scalable infrastructures
-  - [![My Skills](https://skillicons.dev/icons?i=nodejs,python,ruby,php&perline=5)](https://skillicons.dev)
+  - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
   - CI/CD pipelines
   - Infrastructure as Code (IaC)
