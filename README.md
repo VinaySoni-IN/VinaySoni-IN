@@ -41,13 +41,8 @@
 - ❤️ **Language That I love the Most**
   - that are some of my fav Back-End language I comfort With
   - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,net,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
-- 🤖 **Automation Enthusiast**
-  - CI/CD pipelines
-  - Infrastructure as Code (IaC)
-- 📝 **Content Creator**
-  - Technical blogs
-  - DevOps tutorials
-  - Open-source projects
+- 🧑🏻‍🎓 **Thing I Master's**
+  - [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,c,cpp,tailwind,vue,nuxt,mongodb,prisma,docker&perline=6)](https://skillicons.dev)
 
 </td>
 
