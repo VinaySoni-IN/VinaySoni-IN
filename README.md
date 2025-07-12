@@ -29,10 +29,9 @@
 - ☁️ **Cloud Development Enthusiasm**
   - there are cloud services that i work with
   - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)
-- 📝 **Content Creator**
-  - Technical blogs
-  - DevOps tutorials
-  - Open-source projects
+- 📝 **Application & Software That I Used**
+  - App's Software That I Used As Developer 
+  - [![My Skills](https://skillicons.dev/icons?i=windows,vscode,idea,pen,notion,androidstudio,,&perline=5)](https://skillicons.dev)
 
 </td>
 
