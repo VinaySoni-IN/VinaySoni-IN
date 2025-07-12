@@ -31,7 +31,7 @@
   - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)
 - 📝 **Application & Software That I Used**
   - App's Software That I Used As Developer 
-  - [![My Skills](https://skillicons.dev/icons?i=windows,vscode,idea,codepen,notion,androidstudio,apple,linkedin,github&perline=5)](https://skillicons.dev)
+  - [![My Skills](https://skillicons.dev/icons?i=windows,vscode,idea,codepen,notion,androidstudio,apple,bash,linkedin,github&perline=5)](https://skillicons.dev)
 
 </td>
 
@@ -40,7 +40,7 @@
 ### What I Do
 - ❤️ **Language That I love the Most**
   - that are some of my fav Back-End language I comfort With
-  - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
+  - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,net,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
 - 🤖 **Automation Enthusiast**
   - CI/CD pipelines
   - Infrastructure as Code (IaC)
