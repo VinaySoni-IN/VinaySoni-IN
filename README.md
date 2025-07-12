@@ -1,7 +1,7 @@
 # <div align="center">💻💭 **Vinay Sanjay Soni**</div>
 
 <div align="center">
-  <p><strong>Hey there!</strong> 👋 I'm a passionate Software Engineer on a mission to Build Different</p>
+  <p><strong>Hey there!</strong> 👋 I'm a Vinay Soni An Software Engineer on a mission to Build Different</p>
 </div>
 
 <div align="center">
@@ -11,7 +11,8 @@
 </div>
 
 <div align="center">
-  <p>Make Everything Easy With my Codes For Making Web & Application Effective and Efficient WorkFlow.</p>
+  <p>Welcome to My GitHub Profile!
+I'm a passionate software developer with a love for innovative technologies and a knack for problem-solving. With expertise in web and mobile application, website & Software development, I craft scalable, efficient, and user-friendly applications that delight users.</p>
 </div>
 
 <br>
