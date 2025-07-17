@@ -49,6 +49,6 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 
 <div align="center">
 
-<img src="https://gcdnb.pbrd.co/images/UhlIUSUJlowS.png" alt="aboutme" width="800px">
+<img src="" alt="" width="800px">
 
 </div>
