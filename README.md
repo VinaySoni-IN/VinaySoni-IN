@@ -1,12 +1,15 @@
 # <div align="center">💻💭 **Vinay Sanjay Soni**</div>
 
 <div align="center">
-  <p><strong>Hey there!</strong> 👋 I'm a Vinay Soni An Software Engineer on a mission to Build Different</p>
+  <p><strong>Hey there!</strong> 👋 I'm a Vinay Soni An Tech Enthusiast ✅ on a mission to Build Different Welcome to My GitHub Profile!</p>
 </div>
 
 <div align="center">
-  <p>Welcome to My GitHub Profile!
-I'm a passionate software developer with a love for innovative technologies and a knack for problem-solving. With expertise in web and mobile application, website & Software development, I craft scalable, efficient, and user-friendly applications that delight users.</p>
+  <p>a passion for leveraging innovative technologies to solve real-world problems and drive product evolution. With a strong foundation in Technology Development | Business Management and a deep understanding of modern systems, I specialize in crafting scalable, efficient, and user-centered digital solutions.
+
+I don’t just write code — I architect platforms, lead teams, and shape technical strategy to align with business vision. From idea to execution, I’m driven by impact, scalability, and long-term innovation. I thrive at the intersection of technology, product, and leadership, transforming complex challenges into breakthrough opportunities.
+
+</p>
 </div>
 
 <br>
