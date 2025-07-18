@@ -22,15 +22,10 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 <td width="50%">
 
 ### What I Do
-- ✨ **UI/UX Design**
-  - create user-friendly and visually appealing interfaces for apps and websites.
-  - [![My Skills](https://skillicons.dev/icons?i=figma,flutter,wordpress,ps,xd&perline=5)](https://skillicons.dev)
+"I ignite business potential by fusing technical expertise with strategic vision, crafting innovative solutions that propel organizations forward. With a passion for building high-impact platforms, leading visionary teams, and driving transformative growth, I excel at navigating the intersection of technology, product, and leadership. My work is driven by a relentless pursuit of excellence, a commitment to innovation, and a dedication to delivering solutions that leave a lasting legacy."
 - ☁️ **Cloud Development Enthusiasm**
   - there are cloud services that i work with
   - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)
-- 📝 **Application & Software That I Used**
-  - App's Software That I Used As Developer 
-  - [![My Skills](https://skillicons.dev/icons?i=windows,vscode,idea,codepen,notion,androidstudio,apple,bash,linkedin,github&perline=5)](https://skillicons.dev)
 
 </td>
 <td width="50%">
