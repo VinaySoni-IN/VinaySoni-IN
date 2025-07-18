@@ -44,6 +44,9 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 
 <div align="center">
 
-<img src="" alt="" width="800px">
+<p align="center">
+  <img src="https://www.motorsportweek.com/wp-content/uploads/2025/07/Charles-Leclerc-Ferrari-F1-2025-Austrian-GP-1024x576.webp" width="800" style="border-radius: 20px;"/>
+</p>
+
 
 </div>
