@@ -41,9 +41,3 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 </tr>
 
 </table>
-
-<div align="center">
-
-  <img src="https://imgpx.com/jlTyD01fg9sk.png" width="800"/>
-
-</div>
