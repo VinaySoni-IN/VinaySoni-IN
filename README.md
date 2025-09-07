@@ -12,6 +12,12 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 </p>
 </div>
 
+<p align="center">
+  <a href="https://github.com/piyushsuthar/github-readme-quotes" target="_blank">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Readme Quotes">
+  </a>
+</p>
+
 <br>
 
 ## 💫 About Me
