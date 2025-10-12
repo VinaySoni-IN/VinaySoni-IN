@@ -18,7 +18,7 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 <tr>
 <td width="50%">
 
-### What I Do
+### What I Do 🎀
 "I ignite business potential by fusing technical expertise with strategic vision, crafting innovative solutions that propel organizations forward. With a passion for building high-impact platforms, leading visionary teams, and driving transformative growth, I excel at navigating the intersection of technology, product, and leadership. My work is driven by a relentless pursuit of excellence, a commitment to innovation, and a dedication to delivering solutions that leave a lasting legacy."
 - ☁️ **Cloud Development Enthusiasm**
   - there are cloud services that i work with
