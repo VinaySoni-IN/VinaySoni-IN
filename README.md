@@ -8,17 +8,8 @@
   <p>a passion for leveraging innovative technologies to solve real-world problems and drive product evolution. With a strong foundation in Technology Development | Business Management and a deep understanding of modern systems, I specialize in crafting scalable, efficient, and user-centered digital solutions.
 
 I don’t just write code — I architect platforms, lead teams, and shape technical strategy to align with business vision. From idea to execution, I’m driven by impact, scalability, and long-term innovation. I thrive at the intersection of technology, product, and leadership, transforming complex challenges into breakthrough opportunities.
-
 </p>
 </div>
-
-<p align="center">
-  <a href="https://github.com/piyushsuthar/github-readme-quotes" target="_blank">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Readme Quotes">
-  </a>
-</p>
-
-<br>
 
 ## 💫 About Me
 <div align="center">
