@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://freeimage.host/i/KsOmWLQ">
+  <a href="https://digitalworkshop.kesug.com">
     <img src="https://iili.io/KsOmWLQ.md.png" alt="KsOmWLQ.md.png" />
   </a>
 </p>
