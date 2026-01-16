@@ -17,7 +17,7 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 </p>
 </div>
 
-## 💫 About Me
+## 📌 About Me
 <div align="center">
 <table>
   
@@ -33,11 +33,11 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 </td>
 <td width="50%">
 
-### What I Masters
-- ❤️ **Language That I love the Most**
-  - that are some of my fav Back-End language I comfort With
+### Technical Expertise 🔍
+- 🗂️ **Back-End Programming Languages**
+  - A set of languages I work with to build efficient, maintainable, and production-ready back-end solutions.
   - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,net,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
-- 👾 **Thing I Master's**
+- 🚀 **Thing I Master's**
   - [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,c,cpp,tailwind,vue,nuxt,mongodb,prisma,docker&perline=6)](https://skillicons.dev)
 
 </td>
