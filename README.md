@@ -18,29 +18,56 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 </div>
 
 ## 📌 About Me
+
 <div align="center">
 <table>
-  
 <tr>
-<td width="50%">
+
+<td width="50%" valign="top">
 
 ### What I Do 👨🏻‍🎓
-"I ignite business potential by fusing technical expertise with strategic vision, crafting innovative solutions that propel organizations forward. With a passion for building high-impact platforms, leading visionary teams, and driving transformative growth, I excel at navigating the intersection of technology, product, and leadership. My work is driven by a relentless pursuit of excellence, a commitment to innovation, and a dedication to delivering solutions that leave a lasting legacy."
-- ☁️ **Cloud Development Enthusiasm**
-  - there are cloud services that i work with
-  - [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)
+
+I focus on transforming ideas into meaningful digital products by blending strong technical depth with strategic thinking. My work goes beyond implementation—I aim to understand problems at their core and turn complex challenges into clear, scalable, and impactful solutions that deliver long-term value.
+
+I specialize in designing and evolving scalable platforms, shaping long-term technical direction, and making architectural decisions that balance performance, reliability, security, and future growth. I enjoy working at the intersection of technology, product vision, and leadership, where thoughtful engineering meets real-world impact.
+
+I actively work with modern cloud platforms to build reliable, efficient, and scalable infrastructure. I follow cloud-native principles, focus on system resilience and optimization, and continuously explore emerging technologies while staying grounded in proven engineering fundamentals.
+
+— Vinay Sanjay Soni
+
+☁️ Cloud Platforms & Infrastructure Experience
+<br/>
+
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,firebase&perline=5)](https://skillicons.dev)ㅤ
 
 </td>
-<td width="50%">
+
+<td width="50%" valign="top">
 
 ### Technical Expertise 🔍
-- 🗂️ **Back-End Programming Languages**
-  - A set of languages I work with to build efficient, maintainable, and production-ready back-end solutions.
-  - [![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,net,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
-- 🚀 **Thing I Master's**
-  - [![SkillIcons](https://skillicons.dev/icons?i=js,ts,html,css,c,cpp,tailwind,vue,nuxt,mongodb,prisma,docker&perline=6)](https://skillicons.dev)
+
+My technical expertise covers a broad spectrum of back-end and system-level technologies, allowing me to architect clean, scalable, and production-ready solutions across diverse environments.
+
+<br/>
+
+<strong>Back-End & Core Technologies</strong>
+
+<br/>
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs,java,python,ruby,cs,net,php,go,swift,kotlin,rust,haskell,perl,dart,crystal&perline=5)](https://skillicons.dev)
+
+<br/>
+<hr/>
+<br/>
+
+<strong>Things I Master</strong>
+
+<br/>
+
+[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,c,cpp,tailwind,vue,nuxt,mongodb,prisma,docker&perline=6)](https://skillicons.dev)
 
 </td>
-</tr>
 
+</tr>
 </table>
+</div>
