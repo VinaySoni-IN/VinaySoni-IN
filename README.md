@@ -17,6 +17,11 @@ I don’t just write code — I architect platforms, lead teams, and shape techn
 </p>
 </div>
 
+<p align="center">
+  <a href="https://www.instagram.com/vinaysoni.in"><img src="https://img.shields.io/badge/Instagram-vinaysoni.in-e1306c?style=flat&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://wa.me/+918989031351"><img src="https://img.shields.io/badge/WhatsApp-+918989031351-075E54?style=flat&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+</p>
+
 ## 📌 About Me
 
 <div align="center">
