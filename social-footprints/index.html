@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark">
+<title>Your Name — Personal Social Media Footprints</title>
+<!-- UFO favicon assets: see about-favicon.txt for Twemoji attribution. -->
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=1">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png?v=1">
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="manifest" href="./site.webmanifest">
+
+<style>
+.inactive-dialog{width:min(420px,calc(100% - 2rem));padding:1.75rem;border:1px solid #c96c6c;border-top:4px solid #b63333;border-radius:10px;background:var(--paper);color:var(--text);box-shadow:0 20px 70px #0003}.inactive-dialog::backdrop{background:#23070788}.inactive-dialog .notice-label{color:#b63333;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.inactive-dialog h2{margin:.65rem 0}.inactive-dialog p{color:var(--muted);font-size:.9rem}.inactive-dialog button{padding:.6rem 1rem;border:0;border-radius:5px;background:#a72d2d;color:#fff;cursor:pointer}.inactive-dialog button:focus-visible{outline-color:#c94545}
+
+.account:has(+ .account-connector){border-bottom:0}.account-connector{display:flex;align-items:center;gap:.8rem;color:var(--muted);padding:.25rem 0}.account-connector::before,.account-connector::after{content:"";height:1px;background:var(--line);flex:1}.account-connector svg{width:19px;height:19px;flex-shrink:0}
+
+.contacts a{border:1px solid var(--line);border-radius:12px;padding:.65rem .85rem;background:var(--paper);flex-wrap:wrap}.contacts a:hover{background:var(--tint)}.contacts small{border-radius:5px;padding:.1rem .4rem;background:var(--soft)}
+
+.contacts{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;padding:.85rem 0;border-bottom:1px solid var(--line)}.contacts a{display:inline-flex;align-items:center;gap:.5rem;font-size:.78rem;text-decoration:none;overflow-wrap:anywhere;min-width:0}.contacts a:hover{text-decoration:underline}.contacts svg{width:16px;height:16px;flex-shrink:0}.contacts small{color:var(--muted);font-size:.65rem}.contacts span{overflow-wrap:anywhere}
+
+:root{color-scheme:light;--bg:#f7f6f2;--paper:#fff;--text:#262c29;--muted:#626b65;--line:#d9ddd5;--accent:#315e4b;--soft:#efeee8;--tint:#e9f0e9;--radius:6px;--font:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+:root[data-theme=dark]{color-scheme:dark;--bg:#191e1b;--paper:#202722;--text:#e9ede7;--muted:#adb9ae;--line:#3b473e;--accent:#a4cbb1;--soft:#29322b;--tint:#293d30}
+*{box-sizing:border-box}[hidden]{display:none!important}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 var(--font)}button,input{font:inherit;color:inherit}a{color:var(--accent);text-underline-offset:4px}:focus-visible{outline:3px solid var(--accent);outline-offset:4px}.wrap{width:min(100% - 3rem,960px);margin:auto}.skip{position:absolute;top:-100px;background:var(--paper);padding:1rem}.skip:focus{top:1rem}header{min-height:98px;display:flex;align-items:center;justify-content:space-between;gap:1rem;border-bottom:1px solid var(--line)}.brand{color:var(--text);text-decoration:none;font-weight:650;letter-spacing:-.025em;overflow-wrap:anywhere}.brand small{display:block;color:var(--muted);font-size:.76rem;font-weight:400;letter-spacing:.03em}.theme{border:1px solid var(--line);border-radius:var(--radius);padding:.4rem .65rem;background:transparent;cursor:pointer;white-space:nowrap;font-size:.8rem}.theme:hover{background:var(--soft)}.intro{padding:3.5rem 0 2.5rem}.eyebrow{color:var(--accent);text-transform:uppercase;font-size:.73rem;letter-spacing:.12em;font-weight:650;margin:0 0 .8rem}h1{font:400 clamp(2rem,5vw,2.8rem)/1.15 Georgia,serif;letter-spacing:-.035em;margin:0 0 1rem}.intro-copy{max-width:640px;font-size:1.03rem;color:var(--muted);margin:0}.directory{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:clip}.tabs{display:grid;grid-template-columns:1fr 1fr;background:var(--soft);border-bottom:1px solid var(--line)}.tab{position:relative;min-width:0;min-height:64px;border:0;background:transparent;color:var(--muted);padding:1rem;font-size:.91rem;font-weight:600;cursor:pointer}.tab+.tab{border-left:1px solid var(--line)}.tab[aria-selected=true]{background:var(--paper);color:var(--accent)}.tab[aria-selected=true]:after{content:"";position:absolute;bottom:-1px;left:0;right:0;height:3px;background:var(--accent)}.tab:focus-visible{outline-offset:-5px}.panel{padding:1.75rem}.panel-heading{display:flex;align-items:start;justify-content:space-between;gap:1rem;margin-bottom:1.5rem}h2{font-size:1.15rem;letter-spacing:-.02em;line-height:1.4;margin:0 0 .4rem}.description{max-width:570px;color:var(--muted);font-size:.9rem;margin:0}.note{flex-shrink:0;border:1px solid var(--line);padding:.2rem .55rem;border-radius:3px;font-size:.72rem;color:var(--muted)}#panel-fun .note{background:var(--tint);border-color:transparent;color:var(--accent)}label{display:block;font-size:.8rem;font-weight:600;margin-bottom:.4rem}.search-box{position:relative}.search-box svg{position:absolute;left:.85rem;top:50%;transform:translateY(-50%);width:18px;height:18px;color:var(--muted);pointer-events:none}input{width:100%;min-width:0;border:1px solid var(--line);border-radius:var(--radius);padding:.7rem .85rem .7rem 2.5rem;background:var(--bg);font-size:.9rem}input::placeholder{color:var(--muted);opacity:1}.status{font-size:.76rem;color:var(--muted);margin:.65rem 0 .2rem}ul{list-style:none;margin:0;padding:0}.account{display:grid;grid-template-columns:42px minmax(0,1fr) auto;gap:1rem;align-items:start;padding:1.4rem 0;border-bottom:1px solid var(--line)}.account:last-child{border:0;padding-bottom:.4rem}.avatar{display:grid;place-items:center;width:42px;height:42px;border:1px solid var(--line);border-radius:var(--radius);background:var(--bg);overflow:hidden}.avatar svg{width:22px;height:22px}.avatar img{width:100%;height:100%;object-fit:cover}.title{display:flex;flex-wrap:wrap;align-items:baseline;gap:.3rem .6rem;margin-bottom:.15rem}h3{font-size:.96rem;line-height:1.5;margin:0;font-weight:650;overflow-wrap:anywhere}.badge{font-size:.67rem;color:var(--muted)}.meta{font-size:.77rem;color:var(--muted);margin:0 0 .45rem;overflow-wrap:anywhere}.account-description{max-width:510px;color:var(--muted);font-size:.86rem;margin:0;overflow-wrap:anywhere}.visit{display:inline-flex;gap:.35rem;align-items:center;padding:.25rem 0;font-size:.78rem;font-weight:600;white-space:nowrap;text-decoration:none}.visit:hover{text-decoration:underline}.visit svg{width:13px;height:13px}.unconfigured{max-width:110px;margin-top:.35rem;text-align:right;color:var(--muted);font-size:.72rem}.empty{text-align:center;padding:2.5rem 1rem}.empty p{font-size:.9rem;color:var(--muted);margin-bottom:0}.about{display:grid;grid-template-columns:180px minmax(0,1fr);gap:2rem;padding:2.25rem 0}.about h2{font-size:.9rem}.about p{font-size:.86rem;color:var(--muted);margin:0}footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.75rem 1.5rem;border-top:1px solid var(--line);padding:1.25rem 0 2rem;font-size:.75rem;color:var(--muted)}footer a{color:inherit}footer p{margin:0}
+@media(max-width:620px){.wrap{width:calc(100% - 2rem)}header{min-height:82px}.intro{padding:2.5rem 0 2rem}.panel{padding:1.15rem}.panel-heading{flex-direction:column;gap:.65rem}.tab{font-size:.8rem;padding:.9rem .5rem}.account{grid-template-columns:36px minmax(0,1fr);gap:.75rem}.avatar{width:36px;height:36px}.visit,.unconfigured{grid-column:2;margin-top:-.35rem}.unconfigured{max-width:none;text-align:left}.about{grid-template-columns:1fr;gap:.5rem;padding:1.75rem 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body id="top"><dialog class="inactive-dialog" id="inactive-notice" aria-labelledby="inactive-title" aria-describedby="inactive-description"><span class="notice-label">Social status · Inactive</span><h2 id="inactive-title">Currently socially inactive</h2><p id="inactive-description">I’m currently inactive on social media. Replies and account activity may be limited.</p><form method="dialog"><button type="submit" autofocus>Understood</button></form></dialog><a class="skip" href="#main">Skip to content</a><div class="wrap">
+<header><a class="brand" href="#top"><span id="brand-name">Your Name</span><small>Personal directory / Digital footprints</small></a><button class="theme" id="theme" type="button" hidden>Dark mode</button></header><div class="contacts" id="contacts" aria-label="Contact Vinay"></div>
+<main id="main" tabindex="-1"><section class="intro" aria-labelledby="page-title"><p class="eyebrow">A little order for my corner of the internet</p><h1 id="page-title">Personal Social Media Footprints</h1><p class="intro-copy" id="intro">My public profiles and my off-duty internet life, kept in separate places. Choose a collection to find the right account.</p></section>
+<noscript><p>Please enable JavaScript to display accounts and switch between the two collections.</p></noscript>
+<div class="directory" id="directory" hidden><div class="tabs" role="tablist" aria-label="Account collections"><button class="tab" id="tab-official" role="tab" aria-selected="true" aria-controls="panel-official" tabindex="0" type="button">Official Social Media</button><button class="tab" id="tab-fun" role="tab" aria-selected="false" aria-controls="panel-fun" tabindex="-1" type="button">Fun Zone / Parody 🎭</button></div>
+<section class="panel" id="panel-official" role="tabpanel" aria-labelledby="tab-official" tabindex="0"><div class="panel-heading"><div><h2>My public-facing profiles</h2><p class="description">The accounts I use for work, projects, and public updates. This is the place to start for professional contact.</p></div><span class="note">Public identity</span></div><label for="search-official">Search official accounts</label><div class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="search" id="search-official" placeholder="Name, handle, platform, or description" autocomplete="off" aria-controls="list-official"></div><p class="status" id="status-official" role="status" aria-live="polite"></p><ul id="list-official"></ul><div class="empty" id="empty-official" hidden><h3></h3><p></p></div></section>
+<section class="panel" id="panel-fun" role="tabpanel" aria-labelledby="tab-fun" tabindex="0" hidden><div class="panel-heading"><div><h2>The less formal side</h2><p class="description">Memes, games, music, learning rabbit holes, and the occasional fictional persona. Personal interests, not professional contact points.</p></div><span class="note">Off the clock</span></div><label for="search-fun">Search informal accounts</label><div class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="search" id="search-fun" placeholder="Name, handle, platform, or description" autocomplete="off" aria-controls="list-fun"></div><p class="status" id="status-fun" role="status" aria-live="polite"></p><ul id="list-fun"></ul><div class="empty" id="empty-fun" hidden><h3></h3><p></p></div></section></div>
+<aside class="about" aria-labelledby="about-title"><h2 id="about-title">About this collection</h2><p>Different accounts serve different purposes. My official collection represents my public identity; the other collection is for personal expression and things I enjoy. Parody profiles are not official statements.</p></aside></main>
+<footer><p>© <span id="year"></span> <span id="footer-name">Your Name</span></p><span>UFO icon: <a href="https://github.com/twitter/twemoji" target="_blank" rel="noopener noreferrer">Twemoji</a> · © 2020 Twitter, Inc and contributors · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a> · resized to PNG</span><a href="#top">Back to top ↑</a></footer></div>
+<script>
+(()=>{
+'use strict';
+const notice=document.getElementById('inactive-notice');if(typeof notice.showModal==='function')notice.showModal();else notice.setAttribute('open','');
+/* YOUR CONFIGURATION: Edit these values only to personalize the directory.
+   Replace demo information, set demo:false, and add complete HTTPS profile URLs.
+   Empty URLs remain non-interactive. imageUrl is optional.
+   official:true is an owner-designated label, NOT platform verification.
+   Keep all accounts in one of the two collections; there are no subcategories.
+   themePreference: 'light', 'dark', or 'system'. */
+const CONFIG={
+ displayName:'Vinay Sanjay Soni',siteTitle:'Personal Social Media Footprints',
+ introduction:'My public profiles and my off-duty internet life, kept in separate places. Choose a collection to find the right account.',themePreference:'system',
+ contacts:{primaryEmail:'vinay.sanjaysoni@outlook.com',secondaryEmail:'vinay.sanjaysoni@gmail.com',phone:'+918989031351',phoneLabel:'+91 89890 31351'},
+ officialAccounts:[
+  {
+    "platform": "GitHub",
+    "name": "GitHub",
+    "username": "VinaySoni-IN",
+    "description": "Code, repositories, and programming projects.",
+    "purpose": "Public profile",
+    "url": "https://github.com/VinaySoni-IN",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "Instagram",
+    "name": "Instagram",
+    "username": "@vinaysoni.in",
+    "description": "A private Instagram account reserved for close business connections. Access is limited to approved contacts.",
+    "purpose": "Private · Close business connections",
+    "url": "https://www.instagram.com/vinaysoni.in/",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "WhatsApp",
+    "name": "WhatsApp",
+    "username": "+91 89890 31351",
+    "description": "Start a direct conversation on WhatsApp.",
+    "purpose": "Direct message",
+    "url": "https://wa.me/918989031351",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "CV",
+    "name": "Curriculum vitae",
+    "username": "Vinay Sanjay Soni",
+    "description": "View or download my CV from its dedicated hosting page.",
+    "purpose": "CV / résumé",
+    "url": "https://jumpshare.com/share/mIvOmdCHKrBkl9X4guIH",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "Linktree",
+    "name": "Linktree",
+    "username": "@Vinay_soni",
+    "description": "A starting point for my CV, GitHub projects, Digital Workshop Balaghat services, and social contacts.",
+    "purpose": "Link in bio",
+    "url": "https://linktr.ee/Vinay_soni",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "Bytesize",
+    "name": "Bytesize",
+    "username": "@vinaysoni.in",
+    "description": "My CV and GitHub in one place, plus WhatsApp contact and Digital Workshop’s electronics store and service centre.",
+    "purpose": "Link in bio",
+    "url": "https://bytesize.me/vinaysoni.in",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "Bio.site",
+    "name": "Bio.site",
+    "username": "Vinaysoni.in",
+    "description": "My approach to technology, product, and leadership, alongside workshop links and a downloadable PDF CV.",
+    "purpose": "Link in bio",
+    "url": "https://bio.site/Vinaysoni.in",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "LinkLay",
+    "name": "LinkLay",
+    "username": "vinay_soni",
+    "description": "Quick access to my Instagram and LinkedIn profiles, with direct options to call or email me.",
+    "purpose": "Link in bio",
+    "url": "https://linklay.io/vinay_soni",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  },
+  {
+    "platform": "solo.to",
+    "name": "solo.to",
+    "username": "vinaysoni.in",
+    "description": "Based in Balaghat, Madhya Pradesh. Manager at Digital Workshop Balaghat, with links to my CV, workshop services, and social profiles.",
+    "purpose": "Link in bio",
+    "url": "https://solo.to/vinaysoni.in",
+    "imageUrl": "",
+    "official": false,
+    "demo": false
+  }
+],
+ informalAccounts:[
+ {platform:'Instagram',name:'Friends & parody',username:'@vinay.sanjay.soni',description:'A public Instagram account for friends, parody, and a less formal side of life. Open to anyone who wants to follow along.',purpose:'Public · Friends & parody',url:'https://www.instagram.com/vinay.sanjay.soni',imageUrl:'',demo:false},
+ {platform:'Snapchat',name:'Snapchat',username:'@vinaysoni_in',description:'Everyday snaps, stories, and casual conversations with friends. A more spontaneous side of my online life.',purpose:'Personal account',url:'https://www.snapchat.com/@vinaysoni_in',imageUrl:'',demo:false},
+ {platform:'Pinterest',name:'Pinterest',username:'@vinaysoni_in',description:'A place for visual inspiration, interesting ideas, and things to revisit.',purpose:'Personal interests',url:'https://in.pinterest.com/vinaysoni_in/',imageUrl:'',demo:false},
+ ]
+};
+const $=id=>document.getElementById(id),txt=v=>typeof v==='string'?v.trim():'';
+const paths={
+ link:'M10 13a5 5 0 0 0 7 .1l3-3a5 5 0 0 0-7-7l-2 2M14 11a5 5 0 0 0-7-.1l-3 3a5 5 0 0 0 7 7l2-2',
+ pinterest:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM8 21l3-13m-1 6c1 3 6 2 7-2 1-4-1-6-4-6-4 0-6 3-5 6',
+ snapchat:'M12 2C8.8 2 7 4.4 7 7.5v2.3c-.6.4-1.4-.7-2-.2-.8.7.4 1.5 1.6 1.9-.4 2-1.8 3.4-4.1 4.2-.7.3-.3 1 .5 1.2l2 .5.6 1.8c1.5-.4 2.5-.2 3.4.6 1.8 1.5 4.2 1.5 6 0 .9-.8 1.9-1 3.4-.6L19 17.4l2-.5c.8-.2 1.2-.9.5-1.2-2.3-.8-3.7-2.2-4.1-4.2 1.2-.4 2.4-1.2 1.6-1.9-.6-.5-1.4.6-2 .2V7.5C17 4.4 15.2 2 12 2Z',
+ email:'M3 5h18v14H3ZM3 5l9 7 9-7',
+ phone:'M7 3H3c-1 10 8 19 18 18v-4l-5-2-2 2a15 15 0 0 1-7-7l2-2Z',
+ whatsapp:'M21 11.5a9 9 0 0 1-13 8L3 21l1.5-5A9 9 0 1 1 21 11.5ZM8 7c0 5 4 9 9 9l1-2-3-1-1 1-4-4 1-1-1-3Z',
+ cv:'M6 2h8l4 4v16H6ZM14 2v5h4M9 11h6M9 15h6M9 19h4',
+ github:'M9 19c-4.3 1.3-4.3-2.2-6-2.7M15 22v-3.9c0-1.1.1-1.6-.5-2.2 3.3-.4 6.8-1.6 6.8-7.3 0-1.6-.6-3-1.5-4.1.2-.4.7-1.9-.2-3.9 0 0-1.3-.4-4.2 1.6a14.5 14.5 0 0 0-7.6 0C4.9.2 3.6.6 3.6.6c-.9 2-.4 3.5-.2 3.9A6 6 0 0 0 2 8.6c0 5.7 3.4 6.9 6.7 7.3-.5.5-.7 1.2-.7 2.2V22',
+ linkedin:'M5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2ZM7 10v7M7 7v.1M11 17v-7m0 3a3 3 0 0 1 6 0v4',
+ instagram:'M8 3h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5Zm8 9a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm1.5-5.5h.01',
+ youtube:'M6 5h12a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4Zm4 4 5 3-5 3Z',
+ steam:'M21 7.5a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-2.5 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm-7 8.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0ZM1 12l6 3m3-2 3-3m-2 7 6-5',
+ facebook:'M14 22v-9h3l.5-4H14V7c0-1.2.4-2 2-2h2V1.5A22 22 0 0 0 15 1c-3 0-5 1.8-5 5v3H7v4h3v9',
+ telegram:'m22 3-4 18-6-5-3 3 1-6 8-7-10 6-6-2Z',
+ spotify:'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0ZM6 9c4-1 8-.8 12 1M7 13c3-1 6-.6 10 .8M8 16c3-.7 5-.3 8 .7',
+ website:'M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18',
+ external:'M14 3h7v7m0-7L10 14M10 3H3v18h18v-7'
+};
+function node(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=String(text);return n}
+function icon(name){const ns='http://www.w3.org/2000/svg',s=document.createElementNS(ns,'svg'),p=document.createElementNS(ns,'path');Object.entries({viewBox:'0 0 24 24',fill:'none',stroke:'currentColor','stroke-width':'1.65','stroke-linecap':'round','stroke-linejoin':'round','aria-hidden':'true',focusable:'false'}).forEach(([k,v])=>s.setAttribute(k,v));p.setAttribute('d',paths[name]||paths.website);s.append(p);return s}
+function safeURL(v){try{const u=new URL(txt(v));return ['https:','http:'].includes(u.protocol)&&!u.username&&!u.password?u.href:''}catch{return ''}}
+function account(a,key){const name=txt(a.name)||txt(a.platform)||'Unnamed account',platform=txt(a.platform)||'Website',li=node('li','account'),avatar=node('div','avatar');const fallback=()=>avatar.replaceChildren(icon(platform.toLowerCase()));fallback();const image=safeURL(a.imageUrl);if(image){const img=new Image();img.alt='';img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.addEventListener('error',fallback,{once:true});img.src=image;avatar.replaceChildren(img)}const content=node('div'),title=node('div','title');title.append(node('h3','',name));if(a.demo===true)title.append(node('span','badge','Demo'));if(key==='official'&&a.official===true)title.append(node('span','badge','Official · owner-designated'));content.append(title,node('p','meta',[platform,txt(a.username),txt(a.purpose)].filter(Boolean).join(' · ')));if(txt(a.description))content.append(node('p','account-description',a.description));li.append(avatar,content);const url=safeURL(a.url);if(url){const link=node('a','visit',a.platform==='CV'?'View CV':a.platform==='WhatsApp'?'Message':'Visit Profile');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.setAttribute('aria-label',`Visit ${name} on ${platform} (opens in a new tab)`);link.append(icon('external'));li.append(link)}else li.append(node('span','unconfigured','Profile URL not added'));return li}
+const collections={official:CONFIG.officialAccounts,fun:CONFIG.informalAccounts},keys=['official','fun'];
+const norm=v=>String(v||'').normalize('NFKC').toLocaleLowerCase();
+function render(key){const q=norm($('search-'+key).value).trim(),all=(Array.isArray(collections[key])?collections[key]:[]).filter(a=>a&&typeof a==='object'),matches=all.filter(a=>!q||[a.name,a.username,a.platform,a.description,a.purpose].map(norm).join(' ').includes(q)),frag=document.createDocumentFragment();matches.forEach((a,i)=>{if(key==='fun'&&a.platform==='Pinterest'&&i>0&&matches[i-1].platform==='Snapchat'){const divider=node('li','account-connector');divider.setAttribute('aria-hidden','true');divider.append(icon('link'));frag.append(divider)}frag.append(account(a,key))});$('list-'+key).replaceChildren(frag);$('status-'+key).textContent=q?`${matches.length} of ${all.length} accounts match your search.`:`${all.length} ${all.length===1?'account':'accounts'} in this collection.`;const empty=$('empty-'+key);empty.hidden=matches.length>0;empty.querySelector('h3').textContent=all.length?'No accounts found':'No accounts added yet';empty.querySelector('p').textContent=all.length?'Try a different name, platform, or handle—or clear the search.':'Add accounts to this collection in the configuration to display them here.'}
+function activate(key,focus=false){keys.forEach(k=>{const selected=k===key,t=$('tab-'+k);t.setAttribute('aria-selected',String(selected));t.tabIndex=selected?0:-1;$('panel-'+k).hidden=!selected});if(focus)$('tab-'+key).focus()}
+keys.forEach(key=>{const tab=$('tab-'+key);tab.addEventListener('click',()=>activate(key));tab.addEventListener('keydown',e=>{let next;const i=keys.indexOf(key),rtl=getComputedStyle(tab).direction==='rtl';if(e.key==='ArrowRight')next=keys[(i+(rtl?-1:1)+2)%2];if(e.key==='ArrowLeft')next=keys[(i+(rtl?1:-1)+2)%2];if(e.key==='Home')next=keys[0];if(e.key==='End')next=keys[1];if(next){e.preventDefault();activate(next,true)}});$('search-'+key).addEventListener('input',()=>render(key));render(key)});
+const media=matchMedia('(prefers-color-scheme: dark)');let saved=null;
+// file:// or sandboxed previews can restrict storage; theme still works in memory.
+try{const v=localStorage.getItem('digital-footprints-theme');if(['light','dark'].includes(v))saved=v}catch{}
+const defaultTheme=()=>['light','dark'].includes(CONFIG.themePreference)?CONFIG.themePreference:media.matches?'dark':'light';
+function apply(t){document.documentElement.dataset.theme=t;const next=t==='dark'?'Light':'Dark';$('theme').textContent=next+' mode';$('theme').setAttribute('aria-label','Switch to '+next.toLowerCase()+' mode')}
+apply(saved||defaultTheme());$('theme').hidden=false;$('theme').addEventListener('click',()=>{saved=document.documentElement.dataset.theme==='dark'?'light':'dark';apply(saved);try{localStorage.setItem('digital-footprints-theme',saved)}catch{}});const follow=()=>{if(!saved&&!['light','dark'].includes(CONFIG.themePreference))apply(defaultTheme())};if(media.addEventListener)media.addEventListener('change',follow);else if(media.addListener)media.addListener(follow);
+const contactLinks=[['email',CONFIG.contacts.primaryEmail,'mailto:'+CONFIG.contacts.primaryEmail,'Primary · Business'],['email',CONFIG.contacts.secondaryEmail,'mailto:'+CONFIG.contacts.secondaryEmail,'Other email'],['phone',CONFIG.contacts.phoneLabel,'tel:'+CONFIG.contacts.phone,'']];
+contactLinks.forEach(([type,label,url,note])=>{const link=node('a');link.href=url;link.append(icon(type),node('span','',label));if(note)link.append(node('small','',note));$('contacts').append(link)});
+$('brand-name').textContent=txt(CONFIG.displayName)||'Your Name';$('footer-name').textContent=txt(CONFIG.displayName)||'Your Name';$('page-title').textContent=txt(CONFIG.siteTitle)||'Digital Footprints';$('intro').textContent=txt(CONFIG.introduction);$('year').textContent=new Date().getFullYear();document.title=`${txt(CONFIG.displayName)||'Your Name'} — ${txt(CONFIG.siteTitle)||'Digital Footprints'}`;$('directory').hidden=false;
+})();
+</script></body></html>
